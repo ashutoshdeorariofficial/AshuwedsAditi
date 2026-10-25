@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashutosh & Aditi | Royal Wedding Celebration</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Cormorant Garamond, Cinzel Decorative, and Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        royal: {
+                            maroon: '#5B0E17',
+                            deepMaroon: '#3E080F',
+                            crimson: '#7A1521',
+                            gold: '#D4AF37',
+                            paleGold: '#F3E5AB',
+                            lightGold: '#E6CA65',
+                            cream: '#FDFBF7',
+                            softIvory: '#F7F2E7',
+                            dark: '#1C0407'
+                        }
+                    },
+                    fontFamily: {
+                        royal: ['"Cinzel Decorative"', 'serif'],
+                        serif: ['"Cormorant Garamond"', 'serif'],
+                        sans: ['Montserrat', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .gold-border {
+            border: 1px solid rgba(212, 175, 55, 0.4);
+        }
+        .gold-border-double {
+            border: 4px double rgba(212, 175, 55, 0.6);
+        }
+        .gold-glow {
+            text-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+        }
+        .royal-card {
+            background: linear-gradient(145deg, #4B0A11 0%, #2D050A 100%);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+        .royal-card-light {
+            background: #FFFFFF;
+            border: 1px solid rgba(212, 175, 55, 0.25);
+            box-shadow: 0 8px 25px rgba(91, 14, 23, 0.06);
+        }
+        .ornate-corner {
+            position: relative;
+        }
+        .ornate-corner::before, .ornate-corner::after {
+            content: "❖";
+            position: absolute;
+            color: #D4AF37;
+            font-size: 14px;
+        }
+        .ornate-corner::before { top: 6px; left: 8px; }
+        .ornate-corner::after { bottom: 6px; right: 8px; }
+    </style>
+</head>
+<body class="bg-royal-cream text-royal-dark font-serif antialiased selection:bg-royal-gold selection:text-royal-maroon">
+
+    <!-- Top Sticky Header -->
+    <header class="sticky top-0 z-40 bg-royal-deepMaroon/95 backdrop-blur-md border-b border-royal-gold/30 text-royal-paleGold py-3 px-6 shadow-xl transition-all duration-300">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <a href="#" class="flex items-center gap-2 group">
+                <div class="w-8 h-8 rounded-full border border-royal-gold/60 overflow-hidden flex items-center justify-center p-0.5 bg-black/40">
+                    <img src="Ashutosh Aditi Main Card (1)_2.jpg" alt="Shree Ganesha" class="w-full h-full object-contain">
+                </div>
+                <span class="font-royal text-sm md:text-base tracking-widest text-royal-gold font-bold">A &amp; A</span>
+            </a>
+            <nav class="flex items-center space-x-6 text-xs md:text-sm font-sans uppercase tracking-widest text-royal-paleGold/90">
+                <a href="#journey" class="hover:text-royal-gold transition-colors">Our Story</a>
+                <a href="#engagement" class="hover:text-royal-gold transition-colors">Engagement</a>
+                <a href="#events" class="hover:text-royal-gold transition-colors">Celebrations</a>
+                <a href="#venue" class="hover:text-royal-gold transition-colors">Venue</a>
+                <a href="#family" class="hover:text-royal-gold transition-colors">RSVP</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-[92vh] flex items-center justify-center text-center px-4 py-16 overflow-hidden bg-gradient-to-b from-royal-deepMaroon via-royal-maroon to-royal-deepMaroon text-royal-cream">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#D4AF37_1px,transparent_1px)] [background-size:24px_24px]"></div>
+
+        <div class="relative z-10 max-w-4xl mx-auto flex flex-col items-center">
+            
+            <!-- Miniature Auspicious Ganesha Motif -->
+            <div class="mb-5 flex flex-col items-center">
+                <div class="w-12 h-12 rounded-full border border-royal-gold/50 p-1 bg-black/50 shadow-md">
+                    <img src="Ashutosh Aditi Main Card (1)_2.jpg" alt="Shree Ganesha" class="w-full h-full object-contain">
+                </div>
+                <p class="font-royal text-xs md:text-sm text-royal-gold tracking-[0.25em] uppercase mt-2">॥ श्री गणेशाय नमः ॥</p>
+            </div>
+
+            <!-- Grandparents' Blessings -->
+            <div class="text-xs md:text-sm font-sans tracking-wide text-royal-paleGold/80 mb-6 max-w-2xl px-4 leading-relaxed">
+                <p class="italic">With the eternal blessings of</p>
+                <p class="font-medium text-royal-paleGold mt-1">
+                    Late Captain Chitramani Deorari &amp; Smt. Shyama Devi Deorari<br>
+                    Late Om Prakash Kestwal &amp; Smt. Chandra Prabha Kestwal
+                </p>
+            </div>
+
+            <!-- Couple Names -->
+            <div class="my-3">
+                <h1 class="font-royal text-3xl sm:text-5xl md:text-6xl text-royal-gold font-bold tracking-wider leading-tight">
+                    Ashutosh
+                </h1>
+                <div class="flex items-center justify-center gap-4 my-2">
+                    <span class="h-px w-16 bg-gradient-to-r from-transparent to-royal-gold/70"></span>
+                    <span class="font-serif italic text-2xl md:text-3xl text-royal-paleGold">&amp;</span>
+                    <span class="h-px w-16 bg-gradient-to-l from-transparent to-royal-gold/70"></span>
+                </div>
+                <h1 class="font-royal text-3xl sm:text-5xl md:text-6xl text-royal-gold font-bold tracking-wider leading-tight">
+                    Aditi
+                </h1>
+            </div>
+
+            <p class="font-serif text-lg md:text-xl text-royal-paleGold/90 italic mt-3 max-w-xl">
+                cordially invite you to celebrate the bond of eternal love and sacred matrimony
+            </p>
+
+            <!-- Wedding Date Badge -->
+            <div class="mt-8 border-y border-royal-gold/50 py-3 px-8 inline-block bg-royal-deepMaroon/60">
+                <p class="font-royal text-sm md:text-lg tracking-[0.2em] text-royal-gold uppercase font-bold">
+                    Friday, 4th December 2026
+                </p>
+                <p class="font-sans text-xs tracking-widest text-royal-paleGold/80 uppercase mt-1">
+                    City Palace, Vikasnagar
+                </p>
+            </div>
+
+            <!-- Live Countdown Timer -->
+            <div class="mt-10 grid grid-cols-4 gap-3 sm:gap-6 text-center max-w-md w-full px-2">
+                <div class="royal-card p-3 rounded border border-royal-gold/30">
+                    <span id="days" class="block font-royal text-xl sm:text-3xl text-royal-gold font-bold">00</span>
+                    <span class="font-sans text-[10px] sm:text-xs uppercase tracking-widest text-royal-paleGold/80">Days</span>
+                </div>
+                <div class="royal-card p-3 rounded border border-royal-gold/30">
+                    <span id="hours" class="block font-royal text-xl sm:text-3xl text-royal-gold font-bold">00</span>
+                    <span class="font-sans text-[10px] sm:text-xs uppercase tracking-widest text-royal-paleGold/80">Hours</span>
+                </div>
+                <div class="royal-card p-3 rounded border border-royal-gold/30">
+                    <span id="minutes" class="block font-royal text-xl sm:text-3xl text-royal-gold font-bold">00</span>
+                    <span class="font-sans text-[10px] sm:text-xs uppercase tracking-widest text-royal-paleGold/80">Mins</span>
+                </div>
+                <div class="royal-card p-3 rounded border border-royal-gold/30">
+                    <span id="seconds" class="block font-royal text-xl sm:text-3xl text-royal-gold font-bold">00</span>
+                    <span class="font-sans text-[10px] sm:text-xs uppercase tracking-widest text-royal-paleGold/80">Secs</span>
+                </div>
+            </div>
+
+            <div class="mt-10">
+                <a href="#events" class="inline-flex items-center gap-2 text-xs font-sans uppercase tracking-[0.2em] text-royal-gold hover:text-royal-paleGold transition-all">
+                    <span>View Ceremonies</span>
+                    <i class="fa-solid fa-chevron-down animate-bounce text-[10px]"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Narrative / Milestones -->
+    <section id="journey" class="py-20 px-6 max-w-4xl mx-auto">
+        <div class="text-center mb-16">
+            <span class="text-xs font-sans tracking-[0.3em] uppercase text-royal-crimson font-semibold">The Beginning of Forever</span>
+            <h2 class="font-royal text-2xl md:text-3xl text-royal-maroon font-bold mt-1">Our Journey</h2>
+            <div class="w-16 h-0.5 bg-royal-gold mx-auto mt-3"></div>
+        </div>
+
+        <div class="relative border-l-2 border-royal-gold/50 ml-4 md:ml-32 pl-6 space-y-12">
+            <!-- Milestone 1 -->
+            <div class="relative group">
+                <div class="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-royal-gold border-4 border-royal-cream"></div>
+                <span class="font-sans text-xs uppercase tracking-widest text-royal-crimson font-bold">29th July 2025</span>
+                <h3 class="font-royal text-lg md:text-xl text-royal-maroon font-bold mt-0.5">The First Conversation</h3>
+                <p class="font-serif text-gray-700 mt-2 text-base md:text-lg leading-relaxed">
+                    A simple conversation sparked an instant, undeniable connection. Words flowed naturally into shared dreams, laughter, and an unspoken knowing that this was meant to be.
+                </p>
+            </div>
+
+            <!-- Milestone 2 -->
+            <div class="relative group">
+                <div class="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-royal-gold border-4 border-royal-cream"></div>
+                <span class="font-sans text-xs uppercase tracking-widest text-royal-crimson font-bold">6th September 2025</span>
+                <h3 class="font-royal text-lg md:text-xl text-royal-maroon font-bold mt-0.5">The Auspicious Roka</h3>
+                <p class="font-serif text-gray-700 mt-2 text-base md:text-lg leading-relaxed">
+                    With blessings from both families, our union was sanctified in traditional grace, marking the sacred promise to walk the path of life together.
+                </p>
+            </div>
+
+            <!-- Milestone 3 -->
+            <div class="relative group">
+                <div class="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-royal-gold border-4 border-royal-cream"></div>
+                <span class="font-sans text-xs uppercase tracking-widest text-royal-crimson font-bold">4th February 2026</span>
+                <h3 class="font-royal text-lg md:text-xl text-royal-maroon font-bold mt-0.5">The Engagement Ceremony</h3>
+                <p class="font-serif text-gray-700 mt-2 text-base md:text-lg leading-relaxed">
+                    Surrounded by loved ones in Vikasnagar, we exchanged rings under golden lights—a radiant afternoon of laughter, blessings, and lifelong devotion.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Engagement Ceremony Gallery Section -->
+    <section id="engagement" class="py-20 px-4 md:px-8 bg-royal-softIvory border-y border-royal-gold/20">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-14">
+                <span class="text-xs font-sans tracking-[0.3em] uppercase text-royal-crimson font-semibold">Cherished Memories</span>
+                <h2 class="font-royal text-2xl md:text-4xl text-royal-maroon font-bold mt-1">The Engagement Ceremony</h2>
+                <p class="font-sans text-xs uppercase tracking-widest text-gray-500 mt-2">Vikasnagar • 4th February</p>
+                <div class="w-16 h-0.5 bg-royal-gold mx-auto mt-3"></div>
+            </div>
+
+            <!-- Centerpiece Royal Portrait -->
+            <div class="max-w-3xl mx-auto mb-10">
+                <div class="royal-card-light p-3 md:p-4 rounded-lg ornate-corner group cursor-pointer" onclick="openLightbox('Golden Wedding Portrait with Pet Dog.png', 'Ashutosh & Aditi with their beloved fur-baby on their engagement ceremony')">
+                    <div class="overflow-hidden rounded border border-royal-gold/40">
+                        <img src="Golden Wedding Portrait with Pet Dog.png" alt="Ashutosh and Aditi Engagement Portrait" class="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-102">
+                    </div>
+                    <div class="text-center py-3">
+                        <p class="font-serif italic text-base md:text-lg text-royal-maroon font-semibold">Joyful Moments with Our Companion</p>
+                        <p class="font-sans text-[11px] uppercase tracking-wider text-gray-500">4th February • Vikasnagar</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3-Column Picture Mosaic -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                <div class="royal-card-light p-2.5 rounded-lg group cursor-pointer" onclick="openLightbox('Golden Rings in Mehndi Hands.png', 'The golden ring presented upon hands adorned in sacred mehendi')">
+                    <div class="overflow-hidden rounded border border-royal-gold/30 h-72">
+                        <img src="Golden Rings in Mehndi Hands.png" alt="Golden Rings in Mehndi Hands" class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105">
+                    </div>
+                    <p class="text-center font-serif italic text-sm text-royal-maroon mt-2">Sacred Rings &amp; Henna</p>
+                </div>
+
+                <div class="royal-card-light p-2.5 rounded-lg group cursor-pointer" onclick="openLightbox('Tender Foreheads, Golden Celebration.png', 'A serene and tender moment of devotion under golden lights')">
+                    <div class="overflow-hidden rounded border border-royal-gold/30 h-72">
+                        <img src="Tender Foreheads, Golden Celebration.png" alt="Tender Foreheads Moment" class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                    </div>
+                    <p class="text-center font-serif italic text-sm text-royal-maroon mt-2">Tender Whispers &amp; Devotion</p>
+                </div>
+
+                <div class="royal-card-light p-2.5 rounded-lg group cursor-pointer" onclick="openLightbox('Golden Bokeh Wedding Portrait.png', 'Radiant smiles as we admire the symbols of our lifelong bond')">
+                    <div class="overflow-hidden rounded border border-royal-gold/30 h-72">
+                        <img src="Golden Bokeh Wedding Portrait.png" alt="Couple Admiring Rings" class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
+                    </div>
+                    <p class="text-center font-serif italic text-sm text-royal-maroon mt-2">Radiant Beginnings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Itinerary & Ceremonies -->
+    <section id="events" class="py-20 px-4 md:px-6 max-w-5xl mx-auto">
+        <div class="text-center mb-16">
+            <span class="text-xs font-sans tracking-[0.3em] uppercase text-royal-crimson font-semibold">Wedding Schedule</span>
+            <h2 class="font-royal text-2xl md:text-3xl text-royal-maroon font-bold mt-1">Ceremonies &amp; Itinerary</h2>
+            <div class="w-16 h-0.5 bg-royal-gold mx-auto mt-3"></div>
+        </div>
+
+        <div class="space-y-12">
+            <!-- Day 1: 3rd December 2026 -->
+            <div class="royal-card-light p-6 md:p-8 rounded-lg gold-border">
+                <div class="border-b border-royal-gold/30 pb-4 mb-6 flex flex-col md:flex-row md:justify-between md:items-center gap-2">
+                    <div>
+                        <span class="font-sans text-xs uppercase tracking-widest text-royal-crimson font-bold">Day One</span>
+                        <h3 class="font-royal text-xl md:text-2xl text-royal-maroon font-bold">Thursday, 3rd December 2026</h3>
+                    </div>
+                    <span class="font-sans text-xs uppercase tracking-wider text-gray-500 bg-royal-cream px-3 py-1 rounded border border-royal-gold/20">Deorari Residence</span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="p-4 bg-royal-cream/60 rounded border-l-4 border-royal-gold">
+                        <span class="font-sans text-xs uppercase tracking-wider text-royal-crimson font-bold">2:30 PM</span>
+                        <h4 class="font-royal text-lg text-royal-maroon font-bold mt-0.5">Hari Keertan</h4>
+                        <p class="font-serif text-sm text-gray-700 mt-1">Invoking divine blessings through sacred chants and devotional hymns.</p>
+                        <p class="font-sans text-xs text-gray-500 mt-2"><i class="fa-solid fa-location-dot text-royal-gold mr-1"></i> Deorari Residence, Badamawala Road, Vikasnagar</p>
+                    </div>
+
+                    <div class="p-4 bg-royal-cream/60 rounded border-l-4 border-royal-crimson">
+                        <span class="font-sans text-xs uppercase tracking-wider text-royal-crimson font-bold">7:30 PM</span>
+                        <h4 class="font-royal text-lg text-royal-maroon font-bold mt-0.5">Sangeet Sandhya</h4>
+                        <p class="font-serif text-sm text-gray-700 mt-1">An evening of rhythmic folk melodies, celebratory dance, and festive joy.</p>
+                        <p class="font-sans text-xs text-gray-500 mt-2"><i class="fa-solid fa-location-dot text-royal-gold mr-1"></i> Deorari Residence, Badamawala Road, Vikasnagar</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 2: 4th December 2026 -->
+            <div class="royal-card-light p-6 md:p-8 rounded-lg gold-border">
+                <div class="border-b border-royal-gold/30 pb-4 mb-6 flex flex-col md:flex-row md:justify-between md:items-center gap-2">
+                    <div>
+                        <span class="font-sans text-xs uppercase tracking-widest text-royal-crimson font-bold">Day Two • The Wedding Day</span>
+                        <h3 class="font-royal text-xl md:text-2xl text-royal-maroon font-bold">Friday, 4th December 2026</h3>
+                    </div>
+                    <span class="font-sans text-xs uppercase tracking-wider text-royal-maroon font-semibold bg-royal-gold/20 px-3 py-1 rounded border border-royal-gold/40">Shubh Vivah</span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                    <div class="p-4 bg-royal-cream/60 rounded border-l-4 border-royal-gold">
+                        <span class="font-sans text-xs uppercase tracking-wider text-royal-crimson font-bold">9:00 AM</span>
+                        <h4 class="font-royal text-base text-royal-maroon font-bold mt-0.5">Haridra Sanskaar</h4>
+                        <p class="font-sans text-xs text-gray-500 mt-2">Deorari Residence</p>
+                    </div>
+
+                    <div class="p-4 bg-royal-cream/60 rounded border-l-4 border-royal-gold">
+                        <span class="font-sans text-xs uppercase tracking-wider text-royal-crimson font-bold">4:00 PM</span>
+                        <h4 class="font-royal text-base text-royal-maroon font-bold mt-0.5">Lagna Aarambh</h4>
+                        <p class="font-sans text-xs text-gray-500 mt-2">Deorari Residence</p>
+                    </div>
+
+                    <div class="p-4 bg-royal-cream/60 rounded border-l-4 border-royal-crimson">
+                        <span class="font-sans text-xs uppercase tracking-wider text-royal-crimson font-bold">6:00 PM</span>
+                        <h4 class="font-royal text-base text-royal-maroon font-bold mt-0.5">Var Prasthan</h4>
+                        <p class="font-sans text-xs text-gray-500 mt-2">Departure from Deorari Residence</p>
+                    </div>
+                </div>
+
+                <!-- Grand Evening Vivah -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 pt-6 border-t border-royal-gold/20">
+                    <div class="p-5 bg-gradient-to-br from-royal-deepMaroon to-royal-maroon text-royal-cream rounded border border-royal-gold/40">
+                        <span class="font-sans text-xs uppercase tracking-wider text-royal-gold font-bold">7:30 PM Onwards</span>
+                        <h4 class="font-royal text-lg text-royal-paleGold font-bold mt-0.5">Wedding Dinner &amp; Reception</h4>
+                        <p class="font-serif text-sm text-royal-cream/80 mt-1">A royal feast to celebrate the joyous union.</p>
+                        <p class="font-sans text-xs text-royal-gold mt-3"><i class="fa-solid fa-champagne-glasses mr-1"></i> City Palace, Vikasnagar</p>
+                    </div>
+
+                    <div class="p-5 bg-gradient-to-br from-royal-deepMaroon to-royal-maroon text-royal-cream rounded border border-royal-gold/40">
+                        <span class="font-sans text-xs uppercase tracking-wider text-royal-gold font-bold">9:00 PM</span>
+                        <h4 class="font-royal text-lg text-royal-paleGold font-bold mt-0.5">Vivah Sanskaar (Pheras)</h4>
+                        <p class="font-serif text-sm text-royal-cream/80 mt-1">The seven sacred vows around the holy fire.</p>
+                        <p class="font-sans text-xs text-royal-gold mt-3"><i class="fa-solid fa-fire-burner mr-1"></i> City Palace, Vikasnagar</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 3: 5th December 2026 -->
+            <div class="royal-card-light p-6 md:p-8 rounded-lg gold-border">
+                <div class="border-b border-royal-gold/30 pb-4 mb-4 flex justify-between items-center">
+                    <div>
+                        <span class="font-sans text-xs uppercase tracking-widest text-royal-crimson font-bold">Day Three</span>
+                        <h3 class="font-royal text-xl md:text-2xl text-royal-maroon font-bold">Saturday, 5th December 2026</h3>
+                    </div>
+                </div>
+
+                <div class="p-4 bg-royal-cream/60 rounded border-l-4 border-royal-gold max-w-md">
+                    <span class="font-sans text-xs uppercase tracking-wider text-royal-crimson font-bold">6:00 AM</span>
+                    <h4 class="font-royal text-lg text-royal-maroon font-bold mt-0.5">Vadhu Aagaman</h4>
+                    <p class="font-serif text-sm text-gray-700 mt-1">Welcoming the bride into the new household with auspicious family blessings.</p>
+                    <p class="font-sans text-xs text-gray-500 mt-2"><i class="fa-solid fa-house-chimney text-royal-gold mr-1"></i> Deorari Residence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Venue Map Section -->
+    <section id="venue" class="py-16 px-4 bg-gradient-to-b from-royal-softIvory to-royal-cream border-t border-royal-gold/30">
+        <div class="max-w-4xl mx-auto text-center">
+            <span class="text-xs font-sans tracking-[0.3em] uppercase text-royal-crimson font-semibold">Location &amp; Directions</span>
+            <h2 class="font-royal text-2xl md:text-3xl text-royal-maroon font-bold mt-1">Wedding Venue</h2>
+            <div class="w-16 h-0.5 bg-royal-gold mx-auto mt-3 mb-8"></div>
+
+            <div class="royal-card text-royal-cream p-8 md:p-10 rounded-xl ornate-corner max-w-2xl mx-auto">
+                <i class="fa-solid fa-landmark text-royal-gold text-3xl mb-3"></i>
+                <h3 class="font-royal text-2xl text-royal-gold font-bold">CITY PALACE</h3>
+                <p class="font-sans text-sm uppercase tracking-widest text-royal-paleGold/80 mt-1">Vikasnagar, Uttarakhand</p>
+                
+                <p class="font-serif text-royal-paleGold/90 text-base md:text-lg mt-4 max-w-md mx-auto">
+                    We look forward to welcoming you to celebrate our sacred union.
+                </p>
+
+                <div class="mt-8">
+                    <a href="https://maps.app.goo.gl/9ynwjknGpomDmb648" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 bg-gradient-to-r from-royal-gold to-royal-lightGold text-royal-dark font-sans text-xs md:text-sm font-bold uppercase tracking-widest py-3.5 px-8 rounded shadow-lg hover:brightness-110 transition-all">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Open in Google Maps</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP & Family Tribute -->
+    <section id="family" class="py-20 px-6 max-w-4xl mx-auto text-center">
+        <div class="text-center mb-12">
+            <span class="text-xs font-sans tracking-[0.3em] uppercase text-royal-crimson font-semibold">With Heartfelt Warmth</span>
+            <h2 class="font-royal text-2xl md:text-3xl text-royal-maroon font-bold mt-1">RSVP &amp; Best Compliments</h2>
+            <div class="w-16 h-0.5 bg-royal-gold mx-auto mt-3"></div>
+        </div>
+
+        <div class="royal-card-light p-8 md:p-12 rounded-xl gold-border-double max-w-2xl mx-auto">
+            <!-- Small Ganesha in Family Card -->
+            <div class="w-8 h-8 rounded-full border border-royal-gold/40 mx-auto mb-3 p-0.5 bg-black/10">
+                <img src="Ashutosh Aditi Main Card (1)_2.jpg" alt="Lord Ganesha" class="w-full h-full object-contain">
+            </div>
+            
+            <p class="font-sans text-xs uppercase tracking-[0.25em] text-royal-crimson font-bold">Awaiting Your Gracious Presence</p>
+            
+            <div class="my-6">
+                <h3 class="font-royal text-xl md:text-2xl text-royal-maroon font-bold">
+                    Bhasker Prasad Deorari &amp; Nanda Deorari
+                </h3>
+                <p class="font-serif italic text-gray-600 text-base mt-1">Parents</p>
+            </div>
+
+            <div class="my-4 pt-4 border-t border-royal-gold/20">
+                <h4 class="font-royal text-lg text-royal-maroon font-semibold">
+                    Paridhi Deorari
+                </h4>
+                <p class="font-serif italic text-gray-600 text-sm">Sister</p>
+            </div>
+
+            <div class="mt-8 pt-4 border-t border-royal-gold/20 flex items-center justify-center gap-2 text-royal-crimson">
+                <i class="fa-solid fa-paw text-xs text-royal-gold"></i>
+                <p class="font-sans text-xs uppercase tracking-wider font-semibold text-gray-700">
+                    Warm tail-wags &amp; cuddles from <span class="text-royal-maroon font-bold">Milo &amp; Snoopy</span>
+                </p>
+                <i class="fa-solid fa-paw text-xs text-royal-gold"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-royal-deepMaroon text-royal-paleGold/80 py-12 px-4 text-center border-t border-royal-gold/30">
+        <div class="max-w-2xl mx-auto flex flex-col items-center">
+            <div class="w-8 h-8 rounded-full border border-royal-gold/50 p-0.5 mb-3 bg-black/40">
+                <img src="Ashutosh Aditi Main Card (1)_2.jpg" alt="Lord Ganesha" class="w-full h-full object-contain">
+            </div>
+            <p class="font-royal text-lg text-royal-gold font-bold tracking-widest">ASHUTOSH &amp; ADITI</p>
+            <p class="font-sans text-xs uppercase tracking-[0.2em] text-royal-paleGold/60 mt-1">4th December 2026 • City Palace, Vikasnagar</p>
+            <div class="w-12 h-px bg-royal-gold/40 my-4"></div>
+            <p class="font-serif italic text-xs text-royal-paleGold/60">Thank you for being part of our special celebration.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive Lightbox Modal -->
+    <div id="lightbox" class="fixed inset-0 z-50 bg-black/95 hidden flex-col items-center justify-center p-4 backdrop-blur-sm" onclick="closeLightbox()">
+        <button class="absolute top-6 right-6 text-royal-gold hover:text-white text-3xl transition-colors focus:outline-none" onclick="closeLightbox()">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="max-w-4xl max-h-[85vh] p-2 flex flex-col items-center" onclick="event.stopPropagation()">
+            <img id="lightbox-img" src="" alt="Enlarged Engagement Photo" class="max-w-full max-h-[75vh] object-contain rounded border border-royal-gold/40 shadow-2xl">
+            <p id="lightbox-caption" class="font-serif italic text-royal-paleGold text-base md:text-lg text-center mt-3 max-w-xl"></p>
+        </div>
+    </div>
+
+    <!-- Countdown & Lightbox JavaScript -->
+    <script>
+        // Wedding Date: 4th December 2026 at 19:30 (7:30 PM) IST
+        const weddingDate = new Date('2026-12-04T19:30:00+05:30').getTime();
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const distance = weddingDate - now;
+
+            if (distance < 0) {
+                document.getElementById('days').innerText = "00";
+                document.getElementById('hours').innerText = "00";
+                document.getElementById('minutes').innerText = "00";
+                document.getElementById('seconds').innerText = "00";
+                return;
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById('days').innerText = days < 10 ? '0' + days : days;
+            document.getElementById('hours').innerText = hours < 10 ? '0' + hours : hours;
+            document.getElementById('minutes').innerText = minutes < 10 ? '0' + minutes : minutes;
+            document.getElementById('seconds').innerText = seconds < 10 ? '0' + seconds : seconds;
+        }
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+
+        // Lightbox Functions
+        function openLightbox(src, caption) {
+            document.getElementById('lightbox-img').src = src;
+            document.getElementById('lightbox-caption').innerText = caption;
+            const lightbox = document.getElementById('lightbox');
+            lightbox.classList.remove('hidden');
+            lightbox.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            lightbox.classList.add('hidden');
+            lightbox.classList.remove('flex');
+            document.body.style.overflow = 'auto';
+        }
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === "Escape") {
+                closeLightbox();
+            }
+        });
+    </script>
+</body>
+</html>
